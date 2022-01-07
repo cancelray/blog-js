@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 830px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: none;
+    //margin: 0 15px;
+  }
+}
